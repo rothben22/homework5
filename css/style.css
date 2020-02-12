@@ -87,7 +87,9 @@ Keyframes for animation*/
     min-height: 500px;
     display:flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    flex-basis: 200px;
 
 }
 
@@ -96,7 +98,7 @@ Keyframes for animation*/
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;   
-
+  width: 400px
 }
 
 .card > header{
@@ -225,15 +227,34 @@ header{
 }
 
 @media print { 
-  
-  .card {
-    flex-basis: 200px;
+  body{
+    background-image: none;
   }
+
+  .pricing {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
   .gallery{
     display:none;
   }
+  #gallery{
+    display: none;
+  }
 
+  .gallery > img{
+    display:none;
+  }
 
+  footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
 }
 
 @media screen and (prefers-reduced-motion: reduce) { 
