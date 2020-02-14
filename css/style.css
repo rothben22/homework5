@@ -23,7 +23,7 @@ p {
 }
 
 a.skip{
-  background: white;
+  background:#FFFFFF;
   left: 0;
   padding: 6px;
   position: absolute;
@@ -35,17 +35,17 @@ a.skip{
 
 a.skip:focus{
   top:20px;
-  color: black;
+  color: #000000;
   text-decoration-style: solid;
 }
 
 *:focus{
-  border: 2px solid black;
+  border: 2px solid #000000;
 }
 
 footer{
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #FFFFFF;
   padding: 30px;
   text-align: center;
 }
@@ -68,7 +68,7 @@ Keyframes for animation*/
     width: 20px;
   }
   to{
-    width: 419px;
+    width: 420px;
 
   }
 } 
@@ -95,7 +95,7 @@ Keyframes for animation*/
 
 .card {
   margin: 12px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 7px;
   padding: 0 0 50px 0;   
   width: 400px
@@ -126,13 +126,13 @@ Keyframes for animation*/
   margin-left: 12px;
   border-radius: 7px;
   background: #288080;
-  color: white;
+  color: #ffffff;
   font-size: 1em;
 }
 
 .card h3{
   font-size: 4em;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -166,7 +166,7 @@ header{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
+  background: #ffffff;
   border-bottom: 3px solid #50C7C7;
 }
 
@@ -179,7 +179,7 @@ header{
 }
 
 .nav_item a{
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -249,8 +249,8 @@ header{
   }
 
   footer{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     padding: 30px;
     text-align: center;
   }
